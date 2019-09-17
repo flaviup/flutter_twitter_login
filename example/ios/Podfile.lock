@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_twitter_login (0.0.1):
+    - Flutter
+    - TwitterCore (~> 3.2.0)
+    - TwitterKit (~> 3.4.2)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - Flutter (from `/Users/flaviupasca/flutter/bin/cache/artifacts/engine/ios-release`)
+  - flutter_twitter_login (from `/Users/flaviupasca/Projects/FlutterProjects/flutter_twitter_login/ios`)
+  - TwitterKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/flaviupasca/flutter/bin/cache/artifacts/engine/ios-release"
+  flutter_twitter_login:
+    :path: "/Users/flaviupasca/Projects/FlutterProjects/flutter_twitter_login/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_twitter_login: 93608caee07985b351599ae4f72495a8cbfed990
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: 994679b313403e5adcf8a5d8d000c40ea4e33c6d
+
+COCOAPODS: 1.6.1

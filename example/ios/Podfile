@@ -60,8 +60,8 @@ post_install do |installer|
     end
 
     # workaround for https://github.com/CocoaPods/CocoaPods/issues/7463
-    target.headers_build_phase.files.each do |file|
-      file.settings = { 'ATTRIBUTES' => ['Public'] }
-    end
+    #target.headers_build_phase.files.each do |file|
+    #  file.settings = { 'ATTRIBUTES' => ['Public'] }
+    #end
   end
 end
